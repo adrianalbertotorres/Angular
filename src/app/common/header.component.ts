@@ -3,7 +3,7 @@ import{Component} from '@angular/core';
 @Component({
 
  selector:'app-header' ,
- template:'Cabecera',
+ templateUrl:'./header.component.html'
  
  
 
