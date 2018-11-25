@@ -6,10 +6,11 @@ import {HeaderComponent}  from './common/header.component';
 import{FooterComponent} from './common/footer.component';
 import { LeftComponent } from './common/left.component';
 import { RightComponent } from './common/right.component';
+import { ImagenComponent } from './common/imagen.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
-  declarations: [ AppComponent , HeaderComponent,FooterComponent, LeftComponent, RightComponent],
+  declarations: [ AppComponent , HeaderComponent,FooterComponent, LeftComponent, RightComponent,ImagenComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
